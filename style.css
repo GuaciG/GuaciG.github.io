@@ -7,26 +7,44 @@
 }
 
 body {
-
     font-family: 'Open Sans', sans-serif;
     background-image: linear-gradient(to right, rgba(240, 172, 94, 0.932) , rgb(233, 111, 121));
-
 }
-.container {
+
+
+/* commun styles for different boxes and elements */
+/* 1. styles for container elements centered in column */
+.container, #box-header, main, #projects, #aboutme, .tools {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; 
-
 }
-
-/* styles for container elements centered in row  */
-/* nav bar */
-.nav {
+/* 2. styles for container elements centered in row */
+.nav, .combo, .box-projects {
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: center;
+}
+/* 3. Put all big containers 48px top from their places */
+header, main, footer {
+    position: relative;
+    top: 48px;
+}
+
+/* all h2 elements of document */
+h2 {
+    text-align: center;
+    font-size: 26px;
+    color: #333333;
+    padding-top: 20px;
+    font-family: 'Permanent Marker', cursive;
+} 
+
+
+/* nav bar ----------------------------*/
+.nav {
     position: fixed;
     top: 0;
     width: 100%;
@@ -42,19 +60,13 @@ body {
     font-weight: 600;
 }
 
-.nav a:hover {
+.nav a:hover, .header-links a:hover {
     color: #fff;
 }
 
-/* box-header: picture, text and icons centered in column */
+/* box-header -------------------------- */
 
 #box-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: 48px;
     padding: 90px 0 60px 0;
     color: #333333;
 }
@@ -79,13 +91,8 @@ body {
 
 .header-links a {
     color: rgba(51, 51, 51, 0.6);
-    display: inline-block;
     margin: 5px 15px;
     font-size: 30px;
-}
-
-.header-links a:hover {
-    color: #fff;
 }
 
 .header-links a i:last-child {
@@ -93,21 +100,15 @@ body {
 }
 
 
-/* main : projects and about me*/
+/* main -- sections: projects, aboutme & tools */
 
 main {
-    position: relative;
-    top: 48px;
-    padding: 0 140px;
+    width: 1069px;
 }
 
-/* section projects */
+/* projects section------------------*/
 
 #projects {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 	padding: 30px 40px;
     background-color: #fff;
     background-image: linear-gradient(#f2f2f2,#fff);
@@ -116,15 +117,7 @@ main {
     text-align: left;
 }
 
-h2 {
-    text-align: center;
-    font-size: 26px;
-    color: #333333;
-    padding-top: 20px;
-    font-family: 'Permanent Marker', cursive;
-} 
-
-.box-projects-top p {
+.box-projects-top p, .aboutme-text p {
     padding: 7px 50px;
     font-size: 18px;
     color: #333333;
@@ -140,10 +133,7 @@ h2 {
 }
 
 .box-projects {
-	display: flex;
-	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: center;	
 }
 
 .project-tile {
@@ -165,24 +155,12 @@ h2 {
 	opacity: 0.6;
 }
 
-/* section aboutme */
+/* aboutme section --------------------------*/
 
 #aboutme {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 50px 0;
-    padding: 30px 40px 50px 40px;
+    margin-top: 50px;
+    padding: 30px 40px 0 40px;
     text-align: left;
-    
-}
-
-.aboutme-text p {
-    padding: 7px 50px;
-    font-size: 18px;
-    color: #333333;
-    line-height: 1.6;
 }
 
 .aboutme-text p:first-of-type {
@@ -193,32 +171,31 @@ h2 {
     padding-bottom: 30px;
 }
 
+
+/* tools section ----------------*/
+.tools {
+    margin-bottom: 80px;
+    width: 1069px;
+}
+
 .combo {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;
     flex-wrap: wrap;
     padding: 20px;
     margin-top: 10px;
+    background-color: #fff;
     border-radius: 15px;
     box-shadow: 0 10px 30px #993333;
+    width: 100%;
 }
 
 .combo img {
-    height: auto;
-    max-width: 100%;
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
-/* footer */
 
+/* footer ----------------------*/
 footer {
-    position: relative;
-    top: 48px;
     padding: 10px 0;
-    margin-top: 20px;
     color: #ccc;
     background-color: #333;
     width: 100%;
@@ -226,7 +203,9 @@ footer {
     font-size: 12px;
 }
 
-/* media queries for small devices */
+
+
+/* media queries for small devices max-width 600px */
 
 @media only screen and (max-width: 600px) {
 
@@ -237,69 +216,58 @@ footer {
     #box-header h1 {
         font-size: 39px;
     }
-
-
+    
     main {
-       display: flex;
-       flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0;
+        width: 355px;
     }
     
+    /* projects section ----------------*/
     #projects {
         padding: 30px 0;
         margin: 0;
-        width: 355px;
         border-radius: 10px;
     }
-
     .box-projects-top {
         padding: 30px 0;
     }
 
-    .box-projects-top p {
+    /* same padding in texts all section  */
+    .box-projects-top p, .aboutme-text p {
         padding: 7px 20px;
     }
-   
+    /* change row and wrap to column nowrap */
     .box-projects {
         flex-direction: column;
         justify-content: center;
         align-items: center;
 		flex-wrap: nowrap;
     }
-
-    
+    /* smaller tile/card for each project */
     .project-tile {
         width: 335px;
         margin: 30px 0;
     }
 
 
+    /* aboutme section ----------------*/
     #aboutme {
-        padding: 30px 0 50px 0;
+        padding: 30px 0 0 0;
         margin: 0;
-         
     }
-
     .aboutme-text {
-        padding: 30px 0;
+        padding: 30px 0 0 0;
     }
-
-
-    .aboutme-text p {
-        padding: 7px 20px;
-    }
-
-    .combo {
-        padding: 20px 0;
+    
+    /* tools section -----------------*/
+    .tools {
         width: 355px;
+    }
+    .combo {
         border-radius: 10px;
+        margin: 0;
     }
     .combo img {
-        margin-top: 5px;
-        margin-bottom: 5px;
+        margin: 10px;
     }
-
 
 }
