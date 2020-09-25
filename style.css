@@ -14,14 +14,14 @@ body {
 
 /* commun styles for different boxes and elements */
 /* 1. styles for container elements centered in column */
-.container, #box-header, main, #projects, #aboutme, .tools {
+.container, #home, main, #projects, #about, .tools {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; 
 }
 /* 2. styles for container elements centered in row */
-.nav, .combo, .box-projects {
+.nav, .combo, .projects-box {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -60,18 +60,18 @@ h2 {
     font-weight: 600;
 }
 
-.nav a:hover, .header-links a:hover {
+.nav a:hover, .home-links a:hover {
     color: #fff;
 }
 
 /* box-header -------------------------- */
 
-#box-header {
+#home {
     padding: 90px 0 60px 0;
     color: #333333;
 }
 
-#box-header img {
+#home img {
     width: 200px;
     height: 200px;
     border-radius: 100%;
@@ -79,23 +79,23 @@ h2 {
     box-shadow: 0 10px 30px rgba(153, 51, 51, 0.6);
 }
 
-#box-header h1 {
+#home h1 {
     font-size: 45px;
     font-family: 'Permanent Marker', cursive;
 }
 
-#box-header p:first-of-type {
+#home p:first-of-type {
     padding: 10px 0 5px 0;
     font-size: 19px;
 }
 
-.header-links a {
+.home-links a {
     color: rgba(51, 51, 51, 0.6);
     margin: 5px 15px;
     font-size: 30px;
 }
 
-.header-links a i:last-child {
+.home-links a i:last-child {
     font-size: 27px;
 }
 
@@ -117,22 +117,22 @@ main {
     text-align: left;
 }
 
-.box-projects-top p, .aboutme-text p {
+.projects-box-top p, .about-text p {
     padding: 7px 50px;
     font-size: 18px;
     color: #333333;
     line-height: 1.6;
 }
 
-.box-projects-top p:first-of-type {
+.projects-box-top p:first-of-type {
     padding-top: 30px;
 }
 
-.box-projects-top p:last-of-type {
+.projects-box-top p:last-of-type {
     padding-bottom: 30px;
 }
 
-.box-projects {
+.projects-box {
 	flex-wrap: wrap;
 }
 
@@ -157,17 +157,17 @@ main {
 
 /* aboutme section --------------------------*/
 
-#aboutme {
+#about {
     margin-top: 50px;
     padding: 30px 40px 0 40px;
     text-align: left;
 }
 
-.aboutme-text p:first-of-type {
+.about-text p:first-of-type {
     padding-top: 30px;
 }
 
-.aboutme-text p:last-of-type {
+.about-text p:last-of-type {
     padding-bottom: 30px;
 }
 
@@ -180,7 +180,7 @@ main {
 
 .combo {
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 20px 0px;
     margin-top: 10px;
     background-color: #fff;
     border-radius: 15px;
@@ -213,7 +213,7 @@ footer {
         margin: 15px;
     }
 
-    #box-header h1 {
+    #home h1 {
         font-size: 39px;
     }
     
@@ -224,19 +224,19 @@ footer {
     /* projects section ----------------*/
     #projects {
         padding: 30px 0;
-        margin: 0;
+        margin: 0 10px;
         border-radius: 10px;
     }
-    .box-projects-top {
+    .projects-box-top {
         padding: 30px 0;
     }
 
     /* same padding in texts all section  */
-    .box-projects-top p, .aboutme-text p {
+    .projects-box-top p, .about-text p {
         padding: 7px 20px;
     }
     /* change row and wrap to column nowrap */
-    .box-projects {
+    .projects-box {
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -250,17 +250,18 @@ footer {
 
 
     /* aboutme section ----------------*/
-    #aboutme {
+    #about {
         padding: 30px 0 0 0;
         margin: 0;
     }
-    .aboutme-text {
+    .about-text {
         padding: 30px 0 0 0;
     }
     
     /* tools section -----------------*/
     .tools {
-        width: 355px;
+        width: 335px;
+        margin: 0 10px 80px 10px;
     }
     .combo {
         border-radius: 10px;
