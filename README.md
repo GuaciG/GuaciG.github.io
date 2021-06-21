@@ -18,6 +18,9 @@ My latest projects are small apps that users can interact with, integrating HTML
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-black?style=flat-square&logo=bootstrap&logoColor=751aff)
 ![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)
 ![Redux](https://img.shields.io/badge/-Redux-black?style=flat-square&logo=redux&logoColor=8946d6)
+![TypeScript](https://img.shields.io/badge/-TypeScript-black?style=flat-square&logo=typescript)
+![Angular](https://img.shields.io/badge/-Angular-black?style=flat-square&logo=angular&logoColor=fc0d0d)
+![Nodejs](https://img.shields.io/badge/-NodeJs-black?style=flat-square&logo=node.js)
 ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)
 
