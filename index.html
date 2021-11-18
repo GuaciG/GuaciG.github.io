@@ -10,17 +10,17 @@
 </head>
 <body>
   <div class="container">
-    <div class="nav">
-      <a href="#home"><i class="fas fa-home"></i>&#8194;Home</a>
-      <a href="#projects"><i class="fas fa-laptop-code"></i>&#8194;Projects</a>
-      <a href="#about"><i class="fas fa-user"></i>&#8194;About</a>
-    </div>
-    <header>
-      <div id="home">
+    <nav class="nav">
+      <a href="#home" class="home"><i class="fas fa-home"></i>&#8194;Home</a>
+      <a href="#projects" class="projects"><i class="fas fa-laptop-code"></i>&#8194;Projects</a>
+      <a href="#about" class="about"><i class="fas fa-user"></i>&#8194;About</a>
+    </nav>
+    <main>
+      <section id="home" class="home-wrapper">
         <img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1612956890/Profile/profile-picture-guaci_typcee.jpg" alt="image-profile">
         <h1>Guaci Gutiérrez</h1>
         <p>Front-End Developer</p>
-        <p>&#x2500;&#x2500;</p>
+        <hr>
         <div class="home-links">
           <a href="https://www.linkedin.com/in/guacimaragutierrez/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
           <a href="https://github.com/GuaciG" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
@@ -28,84 +28,82 @@
           <a href="https://www.freecodecamp.org/guacig" target="_blank"><i class="fa fa-free-code-camp" aria-hidden="true"></i></a>
           <a href="mailto:guacig@hotmail.com"><i class="fas fa-envelope-open-text"></i></a>
         </div> 
-      </div>
-    </header>
-    <main>
-      <section id="projects">
-        <div class="projects-box-top">
+      </section>
+      <section id="projects" class="projects-wrapper">
+        <div class="projects-text-wrapper">
           <h2><i class="fas fa-laptop-code"></i>&#8194;My projects</h2>	
           <p>Although my projects may not look awesome at first sight, I work hard to build websites, mainly on HTML and CSS code. As a junior, I try to do my best to start in the amazing world of web development. Fortunately, practice is key to learn from mistakes and keep growing as a developer.</p>
           <p> My latest projects are small apps that users can interact with, integrating <strong>HTML, CSS, Sass, JavaScript, and React</strong>. I always try to comply with the basic Responsive Web Design best practices, testing them to make sure they work well on any device, both on desktop and mobile.</p>
         </div>	
         <div class="projects-box">
           <div class="project-tile">
-            <a href="https://github.com/GuaciG/techiesgirls-website" title="TechiesGIRLS Website" target="_blank"><img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1632308449/Proyectos/TechiesGIRLS-website/TechiesGIRLS-Home_vrgopn.jpg" alt="TechiesGIRLS Website" width="100%"></a>
+            <a href="https://github.com/GuaciG/techiesgirls-website" title="TechiesGIRLS Website" target="_blank"><img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1632308449/Proyectos/TechiesGIRLS-website/TechiesGIRLS-Home_vrgopn.jpg" alt="TechiesGIRLS Website"></a>
             <p><strong>TechiesGIRLS Website</strong></p>
           </div>
           <div class="project-tile">
-            <a href="https://github.com/GuaciG/todo-list-react-app" title="ToDo List React App" target="_blank"><img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1611685165/Proyectos/To-Do%20List/Desktop_-_ToDo_List_App_1_sky57b.jpg" alt="ToDo List React App" width="100%"></a>
+            <a href="https://github.com/GuaciG/todo-list-react-app" title="ToDo List React App" target="_blank"><img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1611685165/Proyectos/To-Do%20List/Desktop_-_ToDo_List_App_1_sky57b.jpg" alt="ToDo List React App"></a>
             <p><strong>ToDo List React-Hooks App</strong></p>
           </div>
           <div class="project-tile">
-            <a href="https://github.com/GuaciG/local-weather-app" title="Local Weather App" target="_blank"><img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1608579411/Proyectos/Weather/Desktop_-_Local_Weather_App_vf2sck.png" alt="Local Weather App" width="100%"></a>
+            <a href="https://github.com/GuaciG/local-weather-app" title="Local Weather App" target="_blank"><img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1608579411/Proyectos/Weather/Desktop_-_Local_Weather_App_vf2sck.png" alt="Local Weather App"></a>
             <p><strong>Local Weather App</strong></p>
           </div>
           <div class="project-tile">
-            <a href="https://github.com/GuaciG/tic-tac-toe-game" title="Tic Tac Toe Game" target="_blank"><img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1608650677/Proyectos/TicTacToe/Desktop_-_Tic_Tac_Toe_Game_efl3ky.png" alt="Tic Tac Toe Game" width="100%"></a>
+            <a href="https://github.com/GuaciG/tic-tac-toe-game" title="Tic Tac Toe Game" target="_blank"><img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1608650677/Proyectos/TicTacToe/Desktop_-_Tic_Tac_Toe_Game_efl3ky.png" alt="Tic Tac Toe Game"></a>
             <p><strong>Tic Tac Toe Game</strong></p>
           </div>
           <div class="project-tile">
-            <a href="https://github.com/GuaciG/pomodoro-timer" title="Pomodoro Clock" target="_blank"><img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1603989021/Proyectos/Personal%20Portfolio%20Webpage/Desktop-Pomodoro_Clock_ah3qr8.png" alt="Pomodoro Clock" width="100%"></a>
+            <a href="https://github.com/GuaciG/pomodoro-timer" title="Pomodoro Clock" target="_blank"><img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1603989021/Proyectos/Personal%20Portfolio%20Webpage/Desktop-Pomodoro_Clock_ah3qr8.png" alt="Pomodoro Clock"></a>
             <p><strong>Pomodoro Clock</strong></p>
           </div>
           <div class="project-tile">
-            <a href="https://github.com/GuaciG/calculator" title="JavaScript Calculator" target="_blank"><img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1603988778/Proyectos/Personal%20Portfolio%20Webpage/Desktop-JavaScript_Calculator_jsqrhc.png" alt="JavaScript Calculator" width="100%"></a>
+            <a href="https://github.com/GuaciG/calculator" title="JavaScript Calculator" target="_blank"><img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1603988778/Proyectos/Personal%20Portfolio%20Webpage/Desktop-JavaScript_Calculator_jsqrhc.png" alt="JavaScript Calculator"></a>
             <p><strong>JavaScript Calculator</strong></p>
           </div>
           <div class="project-tile">
-            <a href="https://github.com/GuaciG/drum-machine" title="Drum Machine" target="_blank"><img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1603989001/Proyectos/Personal%20Portfolio%20Webpage/Desktop-Drum_Machine_dslm1u.png" alt="Drum Machine" width="100%"></a>
+            <a href="https://github.com/GuaciG/drum-machine" title="Drum Machine" target="_blank"><img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1603989001/Proyectos/Personal%20Portfolio%20Webpage/Desktop-Drum_Machine_dslm1u.png" alt="Drum Machine"></a>
             <p><strong>Drum Machine</strong></p>
           </div>
           <div class="project-tile">
-            <a href="https://github.com/GuaciG/random-quote-machine" title="Random Quote Machine" target="_blank"><img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1603988980/Proyectos/Personal%20Portfolio%20Webpage/Desktop-Random_Quote_Machine_lq4a9g.png" alt="Random Quote Machine" width="100%"></a>
+            <a href="https://github.com/GuaciG/random-quote-machine" title="Random Quote Machine" target="_blank"><img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1603988980/Proyectos/Personal%20Portfolio%20Webpage/Desktop-Random_Quote_Machine_lq4a9g.png" alt="Random Quote Machine"></a>
             <p><strong>Random Quote Machine</strong></p>
           </div>
           <div class="project-tile">
-            <a href="https://github.com/GuaciG/landing-page-travel" title="Travel Single Page" target="_blank"><img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1603989078/Proyectos/Personal%20Portfolio%20Webpage/Landing_Page_Travel_Agency_avqud0.png" alt="Travel Single Page" width="100%"></a>
+            <a href="https://github.com/GuaciG/landing-page-travel" title="Travel Single Page" target="_blank"><img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1603989078/Proyectos/Personal%20Portfolio%20Webpage/Landing_Page_Travel_Agency_avqud0.png" alt="Travel Single Page"></a>
             <p><strong>Travel Single Page</strong></p>
           </div>
           <div class="project-tile">
-            <a href="https://github.com/GuaciG/product-landing-page" title="Product Landing Page" target="_blank"><img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1603989077/Proyectos/Personal%20Portfolio%20Webpage/Product_Landing_Page_-_Cookies_q9v6xi.png" alt="Product Landing Page" width="100%"></a>
+            <a href="https://github.com/GuaciG/product-landing-page" title="Product Landing Page" target="_blank"><img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1603989077/Proyectos/Personal%20Portfolio%20Webpage/Product_Landing_Page_-_Cookies_q9v6xi.png" alt="Product Landing Page"></a>
             <p><strong>Product Landing Page</strong></p>
           </div>
           <div class="project-tile">
-            <a href="https://github.com/GuaciG/roman-number-converter" title="Roman Number Converter" target="_blank"><img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1605891245/Proyectos/Roman%20Number%20Converter/Desktop_-_Roman_Number_Converter_alu4pz.jpg" alt="Roman Number Converter" width="100%"></a>
+            <a href="https://github.com/GuaciG/roman-number-converter" title="Roman Number Converter" target="_blank"><img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1605891245/Proyectos/Roman%20Number%20Converter/Desktop_-_Roman_Number_Converter_alu4pz.jpg" alt="Roman Number Converter"></a>
             <p><strong>Roman Number Converter</strong></p>
           </div>
           <div class="project-tile">
-            <a href="https://github.com/GuaciG/christmas-lights" title="Christmas Lights" target="_blank"><img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1605208453/Proyectos/Christmas%20Lights/Desktop_-_Christmas_Lights_nevhiq.png" alt="Christmas Lights" width="100%"></a>
+            <a href="https://github.com/GuaciG/christmas-lights" title="Christmas Lights" target="_blank"><img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1605208453/Proyectos/Christmas%20Lights/Desktop_-_Christmas_Lights_nevhiq.png" alt="Christmas Lights"></a>
             <p><strong>Christmas Lights</strong></p>
           </div>
           <div class="project-tile">
-            <a href="https://github.com/GuaciG/markdown-previewer" title="Markdown Previewer" target="_blank"><img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1603988946/Proyectos/Personal%20Portfolio%20Webpage/Desktop-Markdown_Previewer_k3n7be.png" alt="Markdown Previewer" width="100%"></a>
+            <a href="https://github.com/GuaciG/markdown-previewer" title="Markdown Previewer" target="_blank"><img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1603988946/Proyectos/Personal%20Portfolio%20Webpage/Desktop-Markdown_Previewer_k3n7be.png" alt="Markdown Previewer"></a>
             <p><strong>Markdown Previewer</strong></p>
           </div>
           <div class="project-tile">
-            <a href="https://github.com/GuaciG/technical-documentation-page" title="Technical Documentation Page" target="_blank"><img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1603989077/Proyectos/Personal%20Portfolio%20Webpage/Technical_Documentation_Page_ug0duz.png" alt="Technical Documentation Page" width="100%"></a>
+            <a href="https://github.com/GuaciG/technical-documentation-page" title="Technical Documentation Page" target="_blank"><img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1603989077/Proyectos/Personal%20Portfolio%20Webpage/Technical_Documentation_Page_ug0duz.png" alt="Technical Documentation Page"></a>
             <p><strong>Technical Documentation Page</strong></p>
           </div>
           <div class="project-tile">
-            <a href="https://github.com/GuaciG/survey-form" title="Survey Form" target="_blank"><img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1603989077/Proyectos/Personal%20Portfolio%20Webpage/Survey_Form_dwuodi.png" alt="Survey Form Page" width="100%"></a>
+            <a href="https://github.com/GuaciG/survey-form" title="Survey Form" target="_blank"><img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1603989077/Proyectos/Personal%20Portfolio%20Webpage/Survey_Form_dwuodi.png" alt="Survey Form Page"></a>
             <p><strong>Survey Form Page</strong></p>
           </div>
           <div class="project-tile">
-            <a href="https://github.com/GuaciG/tribute-page" title="Tribute Page" target="_blank"><img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1603989078/Proyectos/Personal%20Portfolio%20Webpage/Tribute_Page_-_Cate_Blanchett_tale6g.png" alt="Tribute Page Cate Blanchett" width="100%">
+            <a href="https://github.com/GuaciG/tribute-page" title="Tribute Page" target="_blank"><img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1603989078/Proyectos/Personal%20Portfolio%20Webpage/Tribute_Page_-_Cate_Blanchett_tale6g.png" alt="Tribute Page Cate Blanchett">
             </a>
             <p><strong>Tribute Page</strong></p>
           </div>  
         </div>			
       </section>
-      <section id="about">
+      <section id="about" class="about-wrapper">
         <div class="about-text">
           <h2><i class="fas fa-user"></i>&#8194;About me</h2>
           <p>I am looking for an opportunity to get started my professional career as a <strong>Front-End Developer</strong>, with a huge passion for learning. My goal is to make people's lives easier through technology.</p>
@@ -114,29 +112,29 @@
           <p>Finally, I have a firm understanding of <strong>HTML, CSS, and JavaScript</strong>, as well as software packages such as frameworks and tools that are used in today's technology. Find below a list of my current technical skills:</p>
         </div>
       </section>
-      <section class="tools">
+      <div class="tools">
         <div class="combo">
-          <img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1600885808/iconos/html5_l9uaty.png" alt="html" width="45" height="45">
-          <img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1600885808/iconos/css_sa8yg3.png" alt="css" width="45" height="45">
-          <img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1618478985/iconos/JavaScript_ehfdft.jpg" alt="javascript" width="45" height="45">
-          <img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1600885809/iconos/sass_ytfiqd.png" alt="sass" width="45" height="45">
-          <img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1613751254/iconos/jquery_qflxqt.png" alt="jquery" width="45" height="45">
-          <img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1600885809/iconos/react_uras0m.png" alt="react" width="45" height="45">
-          <img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1614276419/iconos/redux_wx8773.png" alt="redux" width="45" height="45">
-          <img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1624282302/iconos/typescript_vfbzeb.png" alt="typescript" width="45" height="45">
-          <img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1624282302/iconos/angular_lnzucr.png" alt="angular" width="45" height="45">
-          <img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1624282302/iconos/nodejs_agxwcs.png" alt="nodejs" width="45" height="45">
-          <img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1600885808/iconos/bootstrap_smrtex.png" alt="bootstrap" width="45" height="45">
-          <img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1600885808/iconos/photoshop_w2errt.png" alt="photoshop" width="45" height="45">
-          <img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1600885808/iconos/git_dvm9dx.png" alt="git" width="45" height="45">
-          <img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1600885808/iconos/github_gf0t2u.png" alt="github" width="45" height="45">
+          <img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1600885808/iconos/html5_l9uaty.png" alt="html">
+          <img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1600885808/iconos/css_sa8yg3.png" alt="css">
+          <img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1618478985/iconos/JavaScript_ehfdft.jpg" alt="javascript">
+          <img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1600885809/iconos/sass_ytfiqd.png" alt="sass">
+          <img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1613751254/iconos/jquery_qflxqt.png" alt="jquery">
+          <img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1600885809/iconos/react_uras0m.png" alt="react">
+          <img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1614276419/iconos/redux_wx8773.png" alt="redux">
+          <img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1624282302/iconos/typescript_vfbzeb.png" alt="typescript">
+          <img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1624282302/iconos/angular_lnzucr.png" alt="angular">
+          <img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1624282302/iconos/nodejs_agxwcs.png" alt="nodejs">
+          <img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1600885808/iconos/bootstrap_smrtex.png" alt="bootstrap">
+          <img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1600885808/iconos/photoshop_w2errt.png" alt="photoshop">
+          <img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1600885808/iconos/git_dvm9dx.png" alt="git">
+          <img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1600885808/iconos/github_gf0t2u.png" alt="github">
         </div>
-      </section>
+      </div>
     </main>
     <footer>
       <p>&#9400; 2021 Guaci Gutiérrez&#8194; &bull; &#8194;London (UK)</p>
     </footer>
   </div>
-    
+  <script src="/main.js"></script>  
 </body>
 </html>

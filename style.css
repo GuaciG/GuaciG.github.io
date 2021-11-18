@@ -1,274 +1,415 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Permanent+Marker&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Permanent+Marker&display=swap");
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary-color: #333333;
+  --on-hover-color: #ffffff;
+  --yellow-tone: rgba(240, 172, 94, 0.932);
+  --pink-tone: rgb(233, 111, 121);
+  --grey-tone: #f2f2f2;
+  --white-tone: #fcfcfc;
+  --security-color-body: #a8a8a8;
+  --security-color-projects: #f7f7f7;
+  --box-shadow-primary: 0 10px 30px rgba(153, 51, 51);
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    background-image: linear-gradient(to right, rgba(240, 172, 94, 0.932) , rgb(233, 111, 121));
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--security-color-body);
+  background-image: linear-gradient(
+    to right,
+    var(--yellow-tone),
+    var(--pink-tone)
+  );
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
 
-/* commun styles for different boxes and elements */
-/* 1. styles for container elements centered in column */
-.container, #home, main, #projects, #about, .tools {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
+/* nav bar ----------------------------*/
+.nav {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  background-color: var(--security-color-body);
+  background-image: linear-gradient(
+    to right,
+    var(--yellow-tone),
+    var(--pink-tone)
+  );
+  z-index: 999;
+  box-shadow: 0 5px 5px rgba(153, 51, 51, 0.2);
 }
-/* 2. styles for container elements centered in row */
-.nav, .combo, .projects-box {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
+.nav a {
+  margin: 15px 60px;
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 600;
 }
-/* 3. Put all big containers 48px top from their places */
-header, main, footer {
-    position: relative;
-    top: 48px;
+
+.nav a:hover {
+  color: var(--on-hover-color);
+}
+
+.nav .active {
+  color: var(--white-tone);
+}
+
+/* Put all big containers 52px top from their places */
+
+main,
+footer {
+  position: relative;
+  top: 52px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 3.5vw;
+  font-family: "Permanent Marker", cursive;
 }
 
 /* all h2 elements of document */
 h2 {
-    text-align: center;
-    font-size: 26px;
-    color: #333333;
-    padding-top: 20px;
-    font-family: 'Permanent Marker', cursive;
-} 
-
-
-/* nav bar ----------------------------*/
-.nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #8d8989;
-    background-image: linear-gradient(to right, rgba(240, 172, 94, 0.932) , rgb(233, 111, 121));
-    z-index: 999;
-    box-shadow: 0 5px 5px rgba(153, 51, 51, 0.2);
-}
-.nav a {
-    margin: 15px 60px;
-    text-decoration: none;
-    color: #333333;
-    font-weight: 600;
+  text-align: center;
+  font-size: 26px;
+  color: var(--primary-color);
+  padding-top: 20px;
+  font-family: "Permanent Marker", cursive;
 }
 
-.nav a:hover, .home-links a:hover {
-    color: #fff;
+.home-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+  padding: 40px 0 70px 0;
+  color: var(--primary-color);
 }
 
-/* box-header -------------------------- */
-
-#home {
-    padding: 90px 0 60px 0;
-    color: #333333;
+.home-wrapper img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  margin: 30px 0;
+  box-shadow: var(--box-shadow-primary);
 }
 
-#home img {
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    margin-bottom: 20px;
-    box-shadow: 0 10px 30px rgba(153, 51, 51, 0.6);
+.home-wrapper p {
+  margin: 10px 0 5px 0;
+  font-size: 19px;
 }
 
-#home h1 {
-    font-size: 45px;
-    font-family: 'Permanent Marker', cursive;
+.home-wrapper hr {
+  width: 30px;
+  margin: 10px 0;
+  color: var(--primary-color);
 }
 
-#home p:first-of-type {
-    padding: 10px 0 5px 0;
-    font-size: 19px;
+.home-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
 }
 
 .home-links a {
-    color: rgba(51, 51, 51, 0.6);
-    margin: 5px 15px;
-    font-size: 30px;
+  color: rgba(51, 51, 51, 0.6);
+  margin: 5px 15px;
+  font-size: 30px;
 }
 
 .home-links a i:last-child {
-    font-size: 27px;
+  font-size: 27px;
 }
 
-
-/* main -- sections: projects, aboutme & tools */
+.home-links a:hover {
+  color: var(--on-hover-color);
+}
 
 main {
-    width: 1069px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* projects section------------------*/
 
-#projects {
-	padding: 30px 40px;
-    background-color: #fff;
-    background-image: linear-gradient(#f2f2f2,#fff);
-    border-radius: 15px;
-    box-shadow: 0 10px 30px #993333;
-    text-align: left;
+.projects-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%;
+  padding: 30px 40px;
+  background-color: var(--security-color-projects);
+  background-image: linear-gradient(
+    to bottom,
+    var(--grey-tone),
+    var(--white-tone)
+  );
+  border-radius: 15px;
+  box-shadow: var(--box-shadow-primary);
+  text-align: left;
 }
 
-.projects-box-top p, .about-text p {
-    padding: 7px 50px;
-    font-size: 18px;
-    color: #333333;
-    line-height: 1.6;
+.projects-text-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 60px;
+  text-align: left;
 }
 
-.projects-box-top p:first-of-type {
-    padding-top: 30px;
+.projects-text-wrapper p {
+  padding: 7px 0px;
+  font-size: 18px;
+  color: var(--primary-color);
+  line-height: 1.6;
 }
 
-.projects-box-top p:last-of-type {
-    padding-bottom: 30px;
+.projects-text-wrapper p:first-of-type {
+  padding-top: 30px;
 }
 
 .projects-box {
-	flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 50px;
 }
 
 .project-tile {
-	width: 400px;
-	margin: 50px 20px;	
-	color: #333333;
-    text-align: center;	
-    border: 1px solid rgb(223, 221, 221);
-    box-shadow: 0 0 10px rgba(136, 136, 136, 0.4);
-    border-radius: 10px;
+  width: 400px;
+  margin: 40px 20px;
+  color: var(--primary-color);
+  text-align: center;
+  border: 1px solid rgb(223, 221, 221);
+  box-shadow: 0 0 10px rgba(136, 136, 136, 0.4);
+  border-radius: 0 0 10px 10px;
+}
+
+.project-tile img {
+  width: 100%;
+  height: auto;
+  transition: all 0.5s ease-out;
 }
 
 .project-tile p {
-    font-size: 14px;
-    padding: 15px 0;
+  font-size: 14px;
+  padding: 15px 0;
 }
 
 .project-tile img:hover {
-	opacity: 0.6;
+  opacity: 0.6;
+}
+
+.project-tile:hover {
+  transform: scale(1.1);
 }
 
 /* aboutme section --------------------------*/
 
-#about {
-    margin-top: 50px;
-    padding: 30px 40px 0 40px;
-    text-align: left;
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 50px auto 0 auto;
+  padding: 30px 40px 0 40px;
+  text-align: left;
+}
+
+.about-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 60px;
+  text-align: left;
+}
+
+.about-text p {
+  padding: 7px 0px;
+  font-size: 18px;
+  color: var(--primary-color);
+  line-height: 1.6;
 }
 
 .about-text p:first-of-type {
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
 .about-text p:last-of-type {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
-
 /* tools section ----------------*/
+
 .tools {
-    margin-bottom: 80px;
-    width: 1069px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+  width: 80%;
 }
 
 .combo {
-    flex-wrap: wrap;
-    padding: 20px 0px;
-    margin-top: 10px;
-    background-color: #fff;
-    border-radius: 15px;
-    box-shadow: 0 10px 30px #993333;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  padding: 20px 0px;
+  margin-top: 10px;
+  background-color: var(--white-tone);
+  border-radius: 15px;
+  box-shadow: var(--box-shadow-primary);
+  width: 100%;
 }
 
 .combo img {
-    margin: 0 15px;
+  width: 45px;
+  height: 45px;
+  margin: 5px 15px;
 }
-
 
 /* footer ----------------------*/
 footer {
-    padding: 10px 0;
-    color: #ccc;
-    background-color: #333;
-    width: 100%;
-    text-align: center;
-    font-size: 12px;
+  padding: 10px 0;
+  color: #ccc;
+  background-color: #333;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
 }
 
+/* media queries for medium devices iPad or max-width 810px */
 
+@media only screen and (max-width: 810px) {
+  .nav a {
+    margin: 15px 30px;
+  }
 
-/* media queries for small devices max-width 600px */
+  .home-wrapper {
+    padding: 50px 0;
+  }
 
-@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 5vw;
+  }
 
-    .nav a {
-        margin: 15px;
-    }
+  h2 {
+    font-size: 24px;
+  }
 
-    #home h1 {
-        font-size: 39px;
-    }
-    
-    main {
-        width: 355px;
-    }
-    
-    /* projects section ----------------*/
-    #projects {
-        padding: 30px 0;
-        margin: 0 10px;
-        border-radius: 10px;
-    }
-    .projects-box-top {
-        padding: 30px 0;
-    }
+  .projects-wrapper {
+    width: 90%;
+    padding: 30px;
+  }
 
-    /* same padding in texts all section  */
-    .projects-box-top p, .about-text p {
-        padding: 7px 20px;
-    }
-    /* change row and wrap to column nowrap */
-    .projects-box {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-		flex-wrap: nowrap;
-    }
-    /* smaller tile/card for each project */
-    .project-tile {
-        width: 315px;
-        margin: 30px 0;
-    }
+  .projects-text-wrapper {
+    padding: 20px;
+  }
 
+  .projects-box {
+    padding: 20px 0px;
+  }
 
-    /* aboutme section ----------------*/
-    #about {
-        padding: 30px 0 0 0;
-        margin: 0;
-    }
-    .about-text {
-        padding: 30px 0 0 0;
-    }
-    
-    /* tools section -----------------*/
-    .tools {
-        width: 335px;
-        margin: 0 10px 80px 10px;
-    }
-    .combo {
-        border-radius: 10px;
-        margin: 0;
-    }
-    .combo img {
-        margin: 10px;
-    }
+  .project-tile {
+    width: 300px;
+    margin: 30px 15px;
+  }
 
+  .about-wrapper {
+    width: 90%;
+    padding: 30px 30px 0 30px;
+    margin: 0 auto;
+  }
+
+  .about-text {
+    padding: 20px;
+  }
+
+  .tools {
+    width: 90%;
+  }
+}
+
+/* media queries for small devices max-width 430px */
+
+@media only screen and (max-width: 430px) {
+  .nav a {
+    margin: 15px 20px;
+  }
+
+  .home-wrapper {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 7vw;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .projects-wrapper {
+    width: 90%;
+    padding: 30px 20px;
+  }
+
+  .projects-text-wrapper {
+    padding: 20px 0px;
+  }
+
+  .projects-text-wrapper p {
+    font-size: 16px;
+  }
+
+  .project-tile {
+    width: 100%;
+    margin: 30px 0px;
+  }
+
+  .about-wrapper {
+    width: 90%;
+    padding: 30px 20px 0 20px;
+  }
+
+  .about-text {
+    padding: 20px 0px;
+  }
+
+  .about-text p {
+    font-size: 16px;
+  }
 }
