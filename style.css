@@ -311,9 +311,39 @@ footer {
   font-size: 12px;
 }
 
-/* media queries for medium devices iPad or max-width 810px */
+/* media queries for medium devices screen size between 1325px and 1024px */
 
-@media only screen and (max-width: 810px) {
+@media only screen and (max-width: 1325px) {
+  .projects-box {
+    padding: 20px;
+  }
+
+  .project-tile {
+    width: 370px;
+    margin: 40px 15px;
+  }
+}
+
+@media only screen and (max-width: 1224px) {
+  .projects-box {
+    padding: 20px 0;
+  }
+
+  .project-tile {
+    width: 350px;
+    margin: 35px 10px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .project-tile {
+    width: 310px;
+  }
+}
+
+/* media queries for medium devices iPad 810px or max-width 925px */
+
+@media only screen and (max-width: 925px) {
   .nav a {
     margin: 15px 30px;
   }
@@ -339,13 +369,8 @@ footer {
     padding: 20px;
   }
 
-  .projects-box {
-    padding: 20px 0px;
-  }
-
   .project-tile {
     width: 300px;
-    margin: 30px 15px;
   }
 
   .about-wrapper {
@@ -360,6 +385,13 @@ footer {
 
   .tools {
     width: 90%;
+  }
+}
+
+/* media queries for small devices max-width 777px */
+@media only screen and (max-width: 777px) {
+  .project-tile {
+    width: 80%;
   }
 }
 
