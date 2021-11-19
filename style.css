@@ -201,7 +201,7 @@ main {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding: 20px 50px;
+  padding: 20px 35px;
 }
 
 .project-tile {
@@ -315,7 +315,7 @@ footer {
 
 @media only screen and (max-width: 1325px) {
   .projects-box {
-    padding: 20px;
+    padding: 20px 10px;
   }
 
   .project-tile {
@@ -330,14 +330,14 @@ footer {
   }
 
   .project-tile {
-    width: 350px;
+    width: 340px;
     margin: 35px 10px;
   }
 }
 
 @media only screen and (max-width: 1024px) {
   .project-tile {
-    width: 310px;
+    width: 300px;
   }
 }
 
@@ -370,7 +370,7 @@ footer {
   }
 
   .project-tile {
-    width: 300px;
+    width: 290px;
   }
 
   .about-wrapper {
