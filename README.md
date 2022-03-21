@@ -1,12 +1,11 @@
 # Hi there 👋
 
-My name is Guaci Gutierrez. I'm a Spanish junior Front-End based in London since 5 years ago and this is my portfolio where I show some of the small projects that I have done so far. 
+My name is Guaci Gutierrez. I'm a Spanish junior Front-End based in London since 5 years ago and this is my portfolio where I show some of the small projects that I have done so far.
 Everyday I do my best to become a good developer, that's my goal.
 
 Although my projects may not look awesome at first sight, I work hard to build websites, mainly on HTML and CSS code. As a junior, I try to do my best to start in the amazing world of web development. Fortunately, practice is key to learn from mistakes and keep growing as a developer.
 
 My latest projects are small apps that users can interact with, integrating HTML, CSS, Sass, JavaScript, and React. I always try to comply with the basic Responsive Web Design best practices, testing them to make sure they work well on any device, both on desktop and mobile.
-
 
 ## Languages, Frameworks, Libraries and Tools
 
@@ -17,13 +16,8 @@ My latest projects are small apps that users can interact with, integrating HTML
 ![Sass](https://img.shields.io/badge/-Sass-black?style=flat-square&logo=sass&logoColor=f252a2)
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-black?style=flat-square&logo=bootstrap&logoColor=751aff)
 ![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)
-![Redux](https://img.shields.io/badge/-Redux-black?style=flat-square&logo=redux&logoColor=8946d6)
-![TypeScript](https://img.shields.io/badge/-TypeScript-black?style=flat-square&logo=typescript)
-![Angular](https://img.shields.io/badge/-Angular-black?style=flat-square&logo=angular&logoColor=fc0d0d)
-![Nodejs](https://img.shields.io/badge/-NodeJs-black?style=flat-square&logo=node.js)
 ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)
-
 
 Take a look at my [portfolio](https://guacig.github.io/). I would appreciate any feedback. Thanks!
 
