@@ -3,9 +3,9 @@
 My name is Guaci Gutierrez. I'm a Spanish junior Front-End based in London since 5 years ago and this is my portfolio where I show some of the small projects that I have done so far.
 Everyday I do my best to become a good developer, that's my goal.
 
-Although my projects may not look awesome at first sight, I work hard to build websites, mainly on HTML and CSS code. As a junior, I try to do my best to start in the amazing world of web development. Fortunately, practice is key to learn from mistakes and keep growing as a developer.
+I work hard to build websites, mainly on HTML, CSS, and JavaScript. As a Junior Developer, I do my best to start in the amazing world of web development. Fortunately, practice is key to learn from mistakes and keep growing as a developer.
 
-My latest projects are small apps that users can interact with, integrating HTML, CSS, Sass, JavaScript, and React. I always try to comply with the basic Responsive Web Design best practices, testing them to make sure they work well on any device, both on desktop and mobile.
+My latest projects are small apps that users can interact with, integrating HTML, CSS, Sass, JavaScript, and React. I always try to comply with responsive design best practices, being focused on visual design and accessibility, besides testing them to make sure they work well on any device.
 
 ## Languages, Frameworks, Libraries and Tools
 
