@@ -21,4 +21,4 @@ My latest projects are small apps that users can interact with, integrating HTML
 
 Take a look at my [portfolio](https://guacig.github.io/). I would appreciate any feedback. Thanks!
 
-![Guaci Gutierrez Portfolio](https://res.cloudinary.com/drpcjt13x/image/upload/v1603218354/Proyectos/Personal%20Portfolio%20Webpage/Guaci_Gutierrez_Front-End_Developer_oo2orr.png "Guaci Gutierrez Portfolio")
+![Guaci Gutierrez Portfolio](https://res.cloudinary.com/drpcjt13x/image/upload/v1667418890/Proyectos/Personal%20Portfolio%20Webpage/portfolio-screen_kykv0f.jpg "Guaci Gutierrez Portfolio")
