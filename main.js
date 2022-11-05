@@ -1,3 +1,4 @@
+/* navigation to specific section via menu-links */
 const sections = document.querySelectorAll("section");
 const navLi = document.querySelectorAll(".container .nav li a");
 
