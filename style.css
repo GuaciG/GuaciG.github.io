@@ -23,7 +23,7 @@ html {
 
 	--ff-primary: "Open Sans", sans-serif;
 	--ff-secondary: "Open Sans", sans-serif;
-	--fz-h1: 48px;
+	--fz-h1: 72px;
 	--fz-h2: 30px;
 	--fz-h3: 19px;
 	--fz-nav-links: 16px;
@@ -190,7 +190,7 @@ li {
 
 .hero-content-animated {
 	position: absolute;
-	top: 210px;
+	top: 240px;
 	left: 5%;
 }
 
@@ -487,6 +487,22 @@ footer {
 /* media queries for medium devices max-width: 870px (iPad 810px) */
 
 @media only screen and (max-width: 870px) {
+	.hero-content h1 {
+		font-size: 46px;
+	}
+
+	.hero-content h1 span {
+		font-size: 46px;
+	}
+
+	.hero-content-animated {
+		top: 210px;
+	}
+
+	.hero-content-animated h3 {
+		font-size: 46px;
+	}
+
 	.btn {
 		padding: 12px 15px;
 	}
@@ -570,7 +586,7 @@ footer {
 	}
 
 	.hero-content-animated {
-		top: 190px;
+		top: 192px;
 	}
 
 	.hero-content-animated h3 {
