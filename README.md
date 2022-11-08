@@ -1,11 +1,10 @@
 # Hi there 👋
 
-My name is Guaci Gutierrez. I'm a Spanish junior Front-End based in London since 5 years ago and this is my portfolio where I show some of the small projects that I have done so far.
-Everyday I do my best to become a good developer, that's my goal.
+As a Junior Developer, I do my best to start in the amazing world of web development. Fortunately, practice is key to learn from mistakes and keep growing as a developer.
 
-I work hard to build websites, mainly on HTML, CSS, and JavaScript. As a Junior Developer, I do my best to start in the amazing world of web development. Fortunately, practice is key to learn from mistakes and keep growing as a developer.
+My latest projects are small apps that users can interact with, mainly integrating HTML, CSS, Sass, JavaScript, and React. I always try to comply with responsive design best practices, being focused on visual design and accessibility, besides testing them to make sure they work well on any device.
 
-My latest projects are small apps that users can interact with, integrating HTML, CSS, Sass, JavaScript, and React. I always try to comply with responsive design best practices, being focused on visual design and accessibility, besides testing them to make sure they work well on any device.
+I can take web designs and turn them into code to create products with a friendly user experience, as well as build my projects following the mobile-first principle, with usability and responsive design best practices in mind. Always enthusiastic for new challenges, I have strong analytical skills together with a can-do attitude.
 
 ## Languages, Frameworks, Libraries and Tools
 
@@ -21,4 +20,4 @@ My latest projects are small apps that users can interact with, integrating HTML
 
 Take a look at my [portfolio](https://guacig.github.io/). I would appreciate any feedback. Thanks!
 
-![Guaci Gutierrez Portfolio](https://res.cloudinary.com/drpcjt13x/image/upload/v1667418890/Proyectos/Personal%20Portfolio%20Webpage/portfolio-screen_kykv0f.jpg "Guaci Gutierrez Portfolio")
+![Guaci Gutierrez Portfolio](https://res.cloudinary.com/drpcjt13x/image/upload/v1667941073/Proyectos/Personal%20Portfolio%20Webpage/desktop_ekth6c.jpg "Guaci Gutierrez Portfolio")
