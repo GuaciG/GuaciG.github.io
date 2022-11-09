@@ -20,4 +20,4 @@ I can take web designs and turn them into code to create products with a friendl
 
 Take a look at my [portfolio](https://guacig.github.io/). I would appreciate any feedback. Thanks!
 
-![Guaci Gutierrez Portfolio](https://res.cloudinary.com/drpcjt13x/image/upload/v1667941073/Proyectos/Personal%20Portfolio%20Webpage/desktop_ekth6c.jpg "Guaci Gutierrez Portfolio")
+![Guaci Gutierrez Portfolio](https://res.cloudinary.com/drpcjt13x/image/upload/v1667996633/Proyectos/Personal%20Portfolio%20Webpage/preview-portfolio-guacig_on1r5c.jpg "Guaci Gutierrez Portfolio")
