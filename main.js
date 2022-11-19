@@ -155,7 +155,7 @@ const projectTemplate = project => {
 					/>
 					<div class="overlay">
 						<p>
-							<strong>Netflix Clone</strong>
+							<strong>${project.title}</strong>
 							<br />
 							<span class="details">
 								${project.details}
