@@ -2,7 +2,7 @@
 const projects = [
 	{
 		projectType: "react",
-		href: "https://netflix-clone-3709a.web.app",
+		href: "https://netflix-myclone-4e4a6.web.app/",
 		title: "Netflix Clone",
 		src: "https://res.cloudinary.com/drpcjt13x/image/upload/v1667651502/Proyectos/Netflix%20clone/netflix-preview_xnstdg.jpg",
 		details: "React / Redux / TMDB Api / Firebase"
