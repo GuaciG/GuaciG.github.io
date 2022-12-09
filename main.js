@@ -1,6 +1,13 @@
 /* data for projects*/
 const projects = [
 	{
+		projectType: "nextjs",
+		href: "https://airbnb-clone-project-red.vercel.app/",
+		title: "Airbnb Clone",
+		src: "https://res.cloudinary.com/drpcjt13x/image/upload/v1670596218/Proyectos/Airbnb%20clone/airbnb-preview_rmzc6u.jpg",
+		details: "Nextjs / Tailwindcss / Vercel"
+	},
+	{
 		projectType: "react",
 		href: "https://netflix-myclone-4e4a6.web.app/",
 		title: "Netflix Clone",
@@ -125,6 +132,14 @@ const toolsLogos = [
 	{
 		src: "https://res.cloudinary.com/drpcjt13x/image/upload/v1600885809/iconos/react_uras0m.png",
 		alt: "react"
+	},
+	{
+		src: "https://res.cloudinary.com/drpcjt13x/image/upload/v1670597946/iconos/nextjs-logo_ye7rad.png",
+		alt: "nextJs"
+	},
+	{
+		src: "https://res.cloudinary.com/drpcjt13x/image/upload/v1670597946/iconos/tailwindcss-logo_fuzeii.png",
+		alt: "tailwindCss"
 	},
 	{
 		src: "https://res.cloudinary.com/drpcjt13x/image/upload/v1600885808/iconos/bootstrap_smrtex.png",

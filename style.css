@@ -429,7 +429,7 @@ h2 {
 
 .tools {
 	margin-bottom: 80px;
-	width: var(--width-wrapper);
+	width: 100%;
 	padding: 20px 30px;
 }
 
