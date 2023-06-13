@@ -2,11 +2,13 @@
 const projects = [
   {
     projectType: 'nextjs',
-    href: 'https://airbnb-clone-project-red.vercel.app/',
+    href: '#projects',
+    /* href: 'https://airbnb-clone-project-red.vercel.app/', */
     title: 'Airbnb Clone',
     src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1670596218/Proyectos/Airbnb%20clone/airbnb-preview_rmzc6u.jpg',
     details: 'Nextjs / Tailwindcss / Vercel',
-    isPrivate: true
+    isPrivate: true,
+    isFinished: false
   },
   {
     projectType: 'react',
@@ -14,7 +16,8 @@ const projects = [
     title: 'Netflix Clone',
     src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1667651502/Proyectos/Netflix%20clone/netflix-preview_xnstdg.jpg',
     details: 'React / Redux / TMDB Api / Firebase',
-    isPrivate: true
+    isPrivate: true,
+    isFinished: true
   },
   {
     projectType: 'javascript',
@@ -22,7 +25,8 @@ const projects = [
     title: 'Rock-Paper-Scissors Game',
     src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1667651660/Proyectos/Rock-Paper-Scissors/rock-paper-scissors-game-app-preview_tcfgll.jpg',
     details: 'JavaScript',
-    isPrivate: false
+    isPrivate: false,
+    isFinished: true
   },
   {
     projectType: 'javascript',
@@ -30,7 +34,8 @@ const projects = [
     title: 'TechiesGIRLS Website',
     src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1667651580/Proyectos/TechiesGIRLS-website/techies-girls-preview_hy5rqn.jpg',
     details: 'JavaScript',
-    isPrivate: false
+    isPrivate: false,
+    isFinished: true
   },
   {
     projectType: 'react',
@@ -38,7 +43,8 @@ const projects = [
     title: 'ToDo List React App',
     src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1667922766/Proyectos/To-Do%20List/todo-list-app-preview_ti0bg6.jpg',
     details: 'React Hooks',
-    isPrivate: false
+    isPrivate: false,
+    isFinished: true
   },
   {
     projectType: 'javascript',
@@ -46,7 +52,8 @@ const projects = [
     title: 'Tic Tac Toe Game',
     src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1667651628/Proyectos/TicTacToe/tic-tac-toe-game-app-preview_e3k157.jpg',
     details: 'JavaScript',
-    isPrivate: false
+    isPrivate: false,
+    isFinished: true
   },
   {
     projectType: 'javascript',
@@ -54,7 +61,8 @@ const projects = [
     title: 'Local Weather App',
     src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1667922826/Proyectos/Weather/local-weather-app-preview_hpcglg.jpg',
     details: 'JavaScript / Openweather API',
-    isPrivate: false
+    isPrivate: false,
+    isFinished: true
   },
   {
     projectType: 'react',
@@ -62,7 +70,8 @@ const projects = [
     title: 'Pomodoro Clock',
     src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1667922881/Proyectos/Pomodoro%20Clock/pomodoro-clock-app-preview_dvikgy.jpg',
     details: 'React',
-    isPrivate: false
+    isPrivate: false,
+    isFinished: true
   },
   {
     projectType: 'javascript',
@@ -70,7 +79,8 @@ const projects = [
     title: 'JavaScript Calculator',
     src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1667651312/Proyectos/Calculator/calculator-app-preview_zertq3.jpg',
     details: 'JavaScript',
-    isPrivate: false
+    isPrivate: false,
+    isFinished: true
   },
   {
     projectType: 'javascript',
@@ -78,7 +88,8 @@ const projects = [
     title: 'Drum Machine',
     src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1667922649/Proyectos/Drum%20Machine/drum-machine-app-preview_y5dvml.jpg',
     details: 'JavaScript',
-    isPrivate: false
+    isPrivate: false,
+    isFinished: true
   },
   {
     projectType: 'javaScript',
@@ -86,7 +97,8 @@ const projects = [
     title: 'Travel Single Page',
     src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1667651532/Proyectos/Product%20Landing%20Page/travel-single-page-preview_wqhyrj.jpg',
     details: 'JavaScript',
-    isPrivate: false
+    isPrivate: false,
+    isFinished: true
   },
   {
     projectType: 'react',
@@ -94,7 +106,8 @@ const projects = [
     title: 'Random Quote Machine',
     src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1667922941/Proyectos/Random%20Quote%20Machine/random-quote-machine-app-preview_sbuilt.jpg',
     details: 'React',
-    isPrivate: false
+    isPrivate: false,
+    isFinished: true
   },
   {
     projectType: 'javascript',
@@ -102,7 +115,8 @@ const projects = [
     title: 'Product Landing Page',
     src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1667651558/Proyectos/Product%20Landing%20Page%20Cookies/cookies-preview_efqcko.jpg',
     details: 'JavaScript',
-    isPrivate: false
+    isPrivate: false,
+    isFinished: true
   },
   {
     projectType: 'react',
@@ -110,7 +124,8 @@ const projects = [
     title: 'Markdown Previewer',
     src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1667651474/Proyectos/Markdown%20Previewer/markdown-previewer-preview_zx6mqs.jpg',
     details: 'React',
-    isPrivate: false
+    isPrivate: false,
+    isFinished: true
   },
   {
     projectType: 'javascript',
@@ -118,7 +133,8 @@ const projects = [
     title: 'Tribute Page',
     src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1667821798/Proyectos/Cate%20Blanchett/tribute-page-preview_zyw4h3.jpg',
     details: 'JavaScript',
-    isPrivate: false
+    isPrivate: false,
+    isFinished: true
   }
 ]
 
@@ -193,6 +209,10 @@ const projectTemplate = project => {
 							<br />
 							<span class="private">
 							${project.isPrivate ? 'GitHub repo upon request' : ''}
+							</span>
+              <br />
+              <span class="finished">
+							${project.isFinished ? '' : 'IN PROGRESS'}
 							</span>
 						</p>
 					</div>

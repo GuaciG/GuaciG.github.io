@@ -364,6 +364,11 @@ h2 {
   font-size: 12px;
 }
 
+.overlay .finished {
+  font-size: 12px;
+  font-weight: bold;
+}
+
 /* aboutme section */
 
 .about-wrapper {
