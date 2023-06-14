@@ -2,13 +2,12 @@
 const projects = [
   {
     projectType: 'nextjs',
-    href: '#projects',
-    /* href: 'https://airbnb-clone-project-red.vercel.app/', */
+    href: 'https://airbnb-clone-project-red.vercel.app/',
     title: 'Airbnb Clone',
     src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1670596218/Proyectos/Airbnb%20clone/airbnb-preview_rmzc6u.jpg',
     details: 'Nextjs / Tailwindcss / Vercel',
     isPrivate: true,
-    isFinished: false
+    isFinished: true
   },
   {
     projectType: 'react',
