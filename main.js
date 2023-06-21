@@ -1,6 +1,15 @@
 /* data for projects*/
 const projects = [
   {
+    projectType: 'javascript',
+    href: 'https://jazzy-haupia-293b11.netlify.app/',
+    title: 'Tesla Clone',
+    src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1687379894/Proyectos/Tesla%20clone/tesla-preview_evyn3x.jpg',
+    details: 'Astro / JavaScript / Tailwindcss / Netlify',
+    isPrivate: false,
+    isFinished: true
+  },
+  {
     projectType: 'nextjs',
     href: 'https://airbnb-clone-project-red.vercel.app/',
     title: 'Airbnb Clone',
@@ -123,15 +132,6 @@ const projects = [
     title: 'Markdown Previewer',
     src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1667651474/Proyectos/Markdown%20Previewer/markdown-previewer-preview_zx6mqs.jpg',
     details: 'React',
-    isPrivate: false,
-    isFinished: true
-  },
-  {
-    projectType: 'javascript',
-    href: 'https://github.com/GuaciG/tribute-page',
-    title: 'Tribute Page',
-    src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1667821798/Proyectos/Cate%20Blanchett/tribute-page-preview_zyw4h3.jpg',
-    details: 'JavaScript',
     isPrivate: false,
     isFinished: true
   }
