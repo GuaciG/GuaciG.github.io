@@ -343,7 +343,7 @@ h2 {
   transform: scale(1);
 }
 
-.overlay p {
+.overlay-info {
   font-size: var(--fz-pCard);
   font-family: var(--ff-secondary);
   color: var(--white-color);
@@ -352,21 +352,44 @@ h2 {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  width: 70%;
 }
 
-.overlay span {
+.overlay-info p {
   font-size: 16px;
   color: var(--primary-grey);
   font-weight: regular;
+  margin-top: 10px;
 }
 
-.overlay .private {
+.overlay-info .private {
   font-size: 12px;
 }
 
 .overlay .finished {
   font-size: 12px;
   font-weight: bold;
+}
+
+.overlay-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.overlay-links a {
+  font-size: 14px;
+  display: inline-block;
+  padding: 5px 15px;
+  background-color: var(--white-color);
+  color: var(--primary-grey);
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.overlay-links a:hover {
+  background-color: var(--primary-grey);
+  color: var(--white-color);
 }
 
 /* aboutme section */

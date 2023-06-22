@@ -2,7 +2,8 @@
 const projects = [
   {
     projectType: 'javascript',
-    href: 'https://jazzy-haupia-293b11.netlify.app/',
+    github: 'https://github.com/GuaciG/tesla-landing-clone',
+    live: 'https://jazzy-haupia-293b11.netlify.app/',
     title: 'Tesla Clone',
     src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1687379894/Proyectos/Tesla%20clone/tesla-preview_evyn3x.jpg',
     details: 'Astro / JavaScript / Tailwindcss / Netlify',
@@ -11,7 +12,8 @@ const projects = [
   },
   {
     projectType: 'nextjs',
-    href: 'https://airbnb-clone-project-red.vercel.app/',
+    github: 'mailto:guacig@hotmail.com',
+    live: 'https://airbnb-clone-project-red.vercel.app/',
     title: 'Airbnb Clone',
     src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1670596218/Proyectos/Airbnb%20clone/airbnb-preview_rmzc6u.jpg',
     details: 'Nextjs / Tailwindcss / Vercel',
@@ -20,7 +22,8 @@ const projects = [
   },
   {
     projectType: 'react',
-    href: 'https://netflix-myclone-4e4a6.web.app/',
+    github: 'mailto:guacig@hotmail.com',
+    live: 'https://netflix-myclone-4e4a6.web.app/',
     title: 'Netflix Clone',
     src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1667651502/Proyectos/Netflix%20clone/netflix-preview_xnstdg.jpg',
     details: 'React / Redux / TMDB Api / Firebase',
@@ -29,7 +32,8 @@ const projects = [
   },
   {
     projectType: 'javascript',
-    href: 'https://github.com/GuaciG/rock-paper-scissors-game',
+    github: 'https://github.com/GuaciG/rock-paper-scissors-game',
+    live: 'https://guacig.github.io/rock-paper-scissors-game/',
     title: 'Rock-Paper-Scissors Game',
     src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1667651660/Proyectos/Rock-Paper-Scissors/rock-paper-scissors-game-app-preview_tcfgll.jpg',
     details: 'JavaScript',
@@ -38,7 +42,8 @@ const projects = [
   },
   {
     projectType: 'javascript',
-    href: 'https://github.com/GuaciG/techiesgirls-website',
+    github: 'https://github.com/GuaciG/techiesgirls-website',
+    live: 'https://guacig.github.io/techiesgirls-website/',
     title: 'TechiesGIRLS Website',
     src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1667651580/Proyectos/TechiesGIRLS-website/techies-girls-preview_hy5rqn.jpg',
     details: 'JavaScript',
@@ -47,7 +52,8 @@ const projects = [
   },
   {
     projectType: 'react',
-    href: 'https://github.com/GuaciG/todo-list-react-app',
+    github: 'https://github.com/GuaciG/todo-list-react-app',
+    live: 'https://guacig.github.io/todo-list-react-app/',
     title: 'ToDo List React App',
     src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1667922766/Proyectos/To-Do%20List/todo-list-app-preview_ti0bg6.jpg',
     details: 'React Hooks',
@@ -56,7 +62,8 @@ const projects = [
   },
   {
     projectType: 'javascript',
-    href: 'https://github.com/GuaciG/tic-tac-toe-game',
+    github: 'https://github.com/GuaciG/tic-tac-toe-game',
+    live: 'https://guacig.github.io/tic-tac-toe-game/',
     title: 'Tic Tac Toe Game',
     src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1667651628/Proyectos/TicTacToe/tic-tac-toe-game-app-preview_e3k157.jpg',
     details: 'JavaScript',
@@ -65,7 +72,8 @@ const projects = [
   },
   {
     projectType: 'javascript',
-    href: 'https://github.com/GuaciG/local-weather-app',
+    github: 'https://github.com/GuaciG/local-weather-app',
+    live: 'https://guacig.github.io/local-weather-app/',
     title: 'Local Weather App',
     src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1667922826/Proyectos/Weather/local-weather-app-preview_hpcglg.jpg',
     details: 'JavaScript / Openweather API',
@@ -74,7 +82,8 @@ const projects = [
   },
   {
     projectType: 'react',
-    href: 'https://github.com/GuaciG/pomodoro-timer',
+    github: 'https://github.com/GuaciG/pomodoro-timer',
+    live: 'https://guacig.github.io/pomodoro-timer/',
     title: 'Pomodoro Clock',
     src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1667922881/Proyectos/Pomodoro%20Clock/pomodoro-clock-app-preview_dvikgy.jpg',
     details: 'React',
@@ -83,7 +92,8 @@ const projects = [
   },
   {
     projectType: 'javascript',
-    href: 'https://github.com/GuaciG/calculator',
+    github: 'https://github.com/GuaciG/calculator',
+    live: 'https://guacig.github.io/calculator/',
     title: 'JavaScript Calculator',
     src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1667651312/Proyectos/Calculator/calculator-app-preview_zertq3.jpg',
     details: 'JavaScript',
@@ -92,7 +102,8 @@ const projects = [
   },
   {
     projectType: 'javascript',
-    href: 'https://github.com/GuaciG/drum-machine',
+    github: 'https://github.com/GuaciG/drum-machine',
+    live: 'https://guacig.github.io/drum-machine/',
     title: 'Drum Machine',
     src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1667922649/Proyectos/Drum%20Machine/drum-machine-app-preview_y5dvml.jpg',
     details: 'JavaScript',
@@ -101,7 +112,8 @@ const projects = [
   },
   {
     projectType: 'javaScript',
-    href: 'https://github.com/GuaciG/landing-page-travel',
+    github: 'https://github.com/GuaciG/landing-page-travel',
+    live: 'https://guacig.github.io/landing-page-travel/',
     title: 'Travel Single Page',
     src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1667651532/Proyectos/Product%20Landing%20Page/travel-single-page-preview_wqhyrj.jpg',
     details: 'JavaScript',
@@ -110,7 +122,8 @@ const projects = [
   },
   {
     projectType: 'react',
-    href: 'https://github.com/GuaciG/random-quote-machine',
+    github: 'https://github.com/GuaciG/random-quote-machine',
+    live: 'https://guacig.github.io/random-quote-machine/',
     title: 'Random Quote Machine',
     src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1667922941/Proyectos/Random%20Quote%20Machine/random-quote-machine-app-preview_sbuilt.jpg',
     details: 'React',
@@ -119,7 +132,8 @@ const projects = [
   },
   {
     projectType: 'javascript',
-    href: 'https://github.com/GuaciG/product-landing-page',
+    github: 'https://github.com/GuaciG/product-landing-page',
+    live: 'https://guacig.github.io/product-landing-page/',
     title: 'Product Landing Page',
     src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1667651558/Proyectos/Product%20Landing%20Page%20Cookies/cookies-preview_efqcko.jpg',
     details: 'JavaScript',
@@ -128,7 +142,8 @@ const projects = [
   },
   {
     projectType: 'react',
-    href: 'https://github.com/GuaciG/markdown-previewer',
+    github: 'https://github.com/GuaciG/markdown-previewer',
+    live: 'https://guacig.github.io/markdown-previewer/',
     title: 'Markdown Previewer',
     src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1667651474/Proyectos/Markdown%20Previewer/markdown-previewer-preview_zx6mqs.jpg',
     details: 'React',
@@ -190,32 +205,43 @@ const toolsLogos = [
 const projectTemplate = project => {
   return `
 				<div class="project-tile ${project.projectType}">
-				<a
-					href=${project.href}
-					title=${project.title}
-					target="_blank"
-					><img
+				<img
 						src=${project.src}
 						alt=${project.title}
 					/>
 					<div class="overlay">
-						<p>
+						<div class='overlay-info'>
 							<strong>${project.title}</strong>
 							<br />
-							<span class="details">
+							<p class="details">
 								${project.details}
-							</span>
+							</p>
 							<br />
-							<span class="private">
+							<p class="private">
 							${project.isPrivate ? 'GitHub repo upon request' : ''}
-							</span>
+							</p>
               <br />
-              <span class="finished">
+              <p class="finished">
 							${project.isFinished ? '' : 'IN PROGRESS'}
-							</span>
-						</p>
+							</p>
+              <div class='overlay-links'>
+              <a
+                href=${project.github}
+                title=${project.title}
+                target="_blank"
+              >
+                GitHub
+              </a>
+              <a
+                href=${project.live}
+                title=${project.title}
+                target="_blank"
+              >
+                Preview
+              </a>
+              </div>
+						</div>
 					</div>
-				</a>
 			</div>
 		`
 }
