@@ -5,7 +5,7 @@ const projects = [
     github: 'https://github.com/GuaciG/tesla-landing-clone',
     live: 'https://jazzy-haupia-293b11.netlify.app/',
     title: 'Tesla Clone',
-    src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1687379894/Proyectos/Tesla%20clone/tesla-preview_evyn3x.jpg',
+    src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1687457208/Proyectos/Tesla%20clone/tesla-preview_wsg3im.jpg',
     details: 'Astro / JavaScript / Tailwindcss / Netlify',
     isPrivate: false,
     isFinished: true
