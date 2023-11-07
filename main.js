@@ -23,12 +23,12 @@ const projects = [
   {
     projectType: 'react',
     github: 'mailto:guacig@hotmail.com',
-    live: 'https://myclone-netflix-85287.web.app/',
+    live: '#',
     title: 'Netflix Clone',
     src: 'https://res.cloudinary.com/drpcjt13x/image/upload/v1667651502/Proyectos/Netflix%20clone/netflix-preview_xnstdg.jpg',
     details: 'React / Redux / TMDB Api / Firebase',
     isPrivate: true,
-    isFinished: true
+    isFinished: false
   },
   {
     projectType: 'javascript',
@@ -225,20 +225,25 @@ const projectTemplate = project => {
 							${project.isFinished ? '' : 'UPDATING'}
 							</p>
               <div class='overlay-links'>
-              <a
-                href=${project.github}
-                title=${project.title}
-                target="_blank"
-              >
-                GitHub
-              </a>
-              <a
-                href=${project.live}
-                title=${project.title}
-                target="_blank"
-              >
-                Preview
-              </a>
+                <a
+                  href=${project.github}
+                  title=${project.title}
+                  target="_blank"
+                >
+                  GitHub
+                </a>
+              
+                ${
+                  project.isFinished
+                    ? `<a
+                      href=${project.live}
+                      title=${project.title}
+                      target="_blank"
+                    > 
+                      Preview
+                    </a>`
+                    : ''
+                } 
               </div>
 						</div>
 					</div>
